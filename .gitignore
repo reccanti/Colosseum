@@ -5,3 +5,6 @@ fonts
 icon
 img
 movies
+
+# Ignore additional tools
+js/tools
