@@ -403,6 +403,10 @@ var BattleTest = {
     setBattlerHp: function (actor, amount) {
         actor.setHp(actor._hp + amount);
         BattleManager._statusWindow.refresh();
+    },
+    setBattlerLevel: function (actor, level) {
+        actor.changeLevel(level, false);
+        BattleManager._statusWindow.refresh();
     }
 };
 
